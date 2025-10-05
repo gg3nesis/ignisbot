@@ -12,6 +12,13 @@ h1{
 .notbold{
     font-weight:lighter;
 }
+.potato{
+    font-size: 10px;
+    text-align: center;
+}
+.gata{
+    font-size: 8px;
+}
 .goodnight{
     text-decoration: none;
     color:#b5562a;
