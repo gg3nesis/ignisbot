@@ -1,0 +1,260 @@
+
+body{
+    font-family: Raleway, Arial, Helvetica, sans-serif;
+     background: linear-gradient(130deg, #083359, #eaded6);
+    overflow-x: hidden;
+}
+.head{
+    font-family: Noto serif, sans serif;
+}
+@media screen and (max-width: 600px){
+    /*home page*/
+    .navbar{
+        background-color:#807E7E ;
+        width: 200px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        border-radius: 30px;
+        align-self: center;
+        justify-self: center;
+        margin: 30px 0 0 0;
+    }
+    .navbar ul{
+        list-style: none;
+        display: flex;
+        gap: 20px;
+        margin: 0;
+        padding: 0;
+        overflow-x: auto;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+    }
+    .navbar ul li{
+        flex: 0 0 auto;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: #333333;
+        padding: 10px;
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 2em;
+        margin-top: 50px;
+        font-family: Noto sans, arial ,sans-serif;
+        
+    }
+    .containdescription{
+        text-align: center;
+        margin-top: 60px;
+        font-size: 14px;
+    }
+    /*sobre page*/
+    .headsobre{
+        margin-top: 60px;
+        text-align: center;
+    }
+    .sobrepart{
+        text-align:center;
+        margin-top: 20px;
+        margin: 20px;
+        font-size: 14px;
+    }
+
+    /*projecto page*/
+    .projectocontain{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .contentp{
+        font-size: 14px;
+    }
+    .gallery{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 20px;
+        padding: 20px;
+    }
+    .bootle {
+       text-align: center;
+    }
+
+     .images {
+       width: 200px;
+       height: auto;
+       border-radius: 8px;
+       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+       transition: transform 0.2s ease;
+    }
+    .bootle p {
+        margin-top: 8px;
+        font-size: 0.9em;
+        color: #333333;
+        font-family: Raleway, Arial, sans-serif;
+    }
+    .recomendations{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .where{
+        font-weight: bold;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .what{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .describe{
+        text-align: center;
+        font-size: 1em;
+    }
+    /*relatorio part */
+    .head3{
+        text-align: center;
+        font-size: 2em;
+    }
+    .access{
+        text-align: center;
+        font-size: 0.9em;
+    }
+    
+}
+@media screen and (min-width:600px){
+    .navbar{
+        background-color:#807E7E ;
+        width: 400px;
+        height: 60px;
+        display: flex;
+        border-radius: 30px;
+        align-self: center;
+        justify-self: center;
+        margin: 30px 0 0 0;
+    }
+    .navbar ul{
+        list-style: none;
+        display: flex;
+        gap: 40px;
+        margin: 0;
+        padding: 0;
+        align-self: center;
+        justify-content: center;
+        white-space: nowrap;
+    }
+    .navbar ul li a{
+        text-decoration: none;
+        color: #333333;
+        padding: 10px;
+        margin: 15px;
+    }
+    .head{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 80px;
+        margin-top: 50px;
+        font-family: Noto sans, arial ,sans-serif;
+        
+    }
+    .containdescription{
+        text-align: center;
+        margin-top: 60px;
+        font-size: 24px;
+        margin-bottom: 100px;
+    }
+    /*sobre part*/
+    .headsobre{
+        margin-top: 60px;
+        text-align: center;
+        font-size: 80px;
+    }
+    .sobrepart{
+        text-align:center;
+        margin-top: 20px;
+        margin: 20px;
+        font-size: 24px;
+    }
+    /*projecto page*/
+    .projectocontain{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .contentp{
+        font-size: 24px;
+    }
+    .gallery{
+        display: flex;
+        gap: 40px;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding: 60px;
+        overflow-x: auto;          /* allows horizontal scrolling */
+        scroll-behavior: smooth;   /* smooth scroll */
+        -webkit-overflow-scrolling: touch; /* for mobile */
+        white-space: nowrap;
+    }
+    .bootle {
+       text-align: center;
+       white-space: normal;
+       display: block;
+       width: 90%;
+       margin: 10px auto;
+       line-height: 1.4;
+    }
+
+    .images {
+       width: 350px;
+       height: auto;
+       border-radius: 8px;
+       box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+       transition: transform 0.2s ease;
+    }
+    .bootle p {
+        margin-top: 8px;
+        font-size: 1.5em;
+        color: #333333;
+        font-family: Raleway, Arial, sans-serif;
+    }
+    .recomendations{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .where{
+        margin-top: 100px;
+        font-weight: bold;
+        font-size: 3em;
+        text-align: center;
+    }
+    .what{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        width: 400px;
+        height: auto;
+        border-radius: 50%;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+    .describe{
+        text-align: center;
+        font-size: 2em;
+    }
+    /*relatorio part */
+    .head3{
+        text-align: center;
+        font-size: 3em;
+    }
+    .access{
+        margin-top: 20px;
+        text-align: center;
+        font-size: 2em;
+    }
+}
