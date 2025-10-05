@@ -7,6 +7,10 @@ body{
 .head{
     font-family: Noto serif, sans serif;
 }
+.goodnight{
+    text-decoration: none;
+    color:#083359;
+}
 @media screen and (max-width: 600px){
     /*home page*/
     .navbar{
