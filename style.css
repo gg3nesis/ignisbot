@@ -120,7 +120,7 @@ body{
     }
     .describe{
         text-align: center;
-        font-size: 1em;
+        font-size: 0.5em;
     }
     /*relatorio part */
     .head3{
@@ -129,7 +129,7 @@ body{
     }
     .access{
         text-align: center;
-        font-size: 0.9em;
+        font-size: 0.5em;
     }
     
 }
