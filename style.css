@@ -7,8 +7,9 @@ body{
 }
 h1{
     color:#4b1608;
-    font-family: Noto Serif;
+    font-family: Noto Serif, sans-serif;
 }
+
 .goodnight{
     text-decoration: none;
     color:#b5562a;
@@ -51,7 +52,7 @@ h1{
         justify-content: center;
         font-size: 2em;
         margin-top: 50px;
-        font-family: Noto serif, arial ,sans-serif;
+        font-family: Noto serif, sans-serif;
         
     }
     .containdescription{
@@ -178,14 +179,15 @@ h1{
         justify-content: center;
         font-size: 80px;
         margin-top: 50px;
-        font-family: Noto sans, arial ,sans-serif;
-        
+        font-family: Noto serif, sans-serif; 
     }
     .containdescription{
         text-align: center;
         margin-top: 10%;
         font-size: 24px;
         margin-bottom: 50%;
+        font-weight: bold;
+        padding: 20px;
     }
     /*sobre part*/
     .headsobre{
