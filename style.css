@@ -1,11 +1,13 @@
 
 body{
     font-family: Raleway, Arial, Helvetica, sans-serif;
-     background: linear-gradient(200deg, #b5562a, #eaded6);
+    background: linear-gradient(200deg, #b5562a, #eaaa80);
     overflow-x: hidden;
+    margin: 20px;
 }
-.head{
-    font-family: Noto serif, sans serif;
+h1{
+    color:#4b1608;
+    font-family: Noto Serif;
 }
 .goodnight{
     text-decoration: none;
@@ -14,7 +16,7 @@ body{
 @media screen and (max-width: 600px){
     /*home page*/
     .navbar{
-        background-color:#807E7E ;
+        background-color:#4b1608 ;
         width: 200px;
         height: 50px;
         display: flex;
@@ -40,7 +42,7 @@ body{
     }
     .navbar ul li a{
         text-decoration: none;
-        color: #333333;
+        color: #e6e6e6;
         padding: 10px;
     }
     .head{
@@ -49,24 +51,29 @@ body{
         justify-content: center;
         font-size: 2em;
         margin-top: 50px;
-        font-family: Noto sans, arial ,sans-serif;
+        font-family: Noto serif, arial ,sans-serif;
         
     }
     .containdescription{
         text-align: center;
-        margin-top: 60px;
+        margin-top: 20%;
         font-size: 14px;
+        margin-bottom: 70%;
+        font-weight: bold;
+        padding: 20px;
     }
     /*sobre page*/
     .headsobre{
         margin-top: 60px;
         text-align: center;
+        font-size: 2em;
     }
     .sobrepart{
         text-align:center;
         margin-top: 20px;
         margin: 20px;
-        font-size: 10px;
+        font-size: 0.9em;
+        margin-bottom: 50%;
     }
 
     /*projecto page*/
@@ -82,6 +89,7 @@ body{
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 20px;
         padding: 20px;
+        margin-bottom: 50%;
     }
     .bootle {
        text-align: center;
@@ -96,10 +104,12 @@ body{
     }
     .bootle p {
         margin-top: 8px;
-        font-size: 0.5em;
-        color: #333333;
+        font-size: 0.7em;
+        color: #3d1f14;
+        font-weight: bold;
         font-family: Raleway, Arial, sans-serif;
     }
+    /*onde part*/
     .recomendations{
         display:flex;
         align-items: center;
@@ -107,7 +117,7 @@ body{
     }
     .where{
         font-weight: bold;
-        font-size: 1.5em;
+        font-size: 2em;
         text-align: center;
     }
     .what{
@@ -120,7 +130,8 @@ body{
     }
     .describe{
         text-align: center;
-        font-size: 0.5em;
+        font-size: 0.9em;
+        margin-bottom: 50%;
     }
     /*relatorio part */
     .head3{
@@ -129,13 +140,14 @@ body{
     }
     .access{
         text-align: center;
-        font-size: 0.5em;
+        font-size: 0.9em;
+        margin-bottom: 50%;
     }
     
 }
 @media screen and (min-width:600px){
     .navbar{
-        background-color:#807E7E ;
+        background-color:#4b1608 ;
         width: 400px;
         height: 60px;
         display: flex;
@@ -156,7 +168,7 @@ body{
     }
     .navbar ul li a{
         text-decoration: none;
-        color: #333333;
+        color: #e6e6e6;
         padding: 10px;
         margin: 15px;
     }
@@ -171,9 +183,9 @@ body{
     }
     .containdescription{
         text-align: center;
-        margin-top: 60px;
+        margin-top: 10%;
         font-size: 24px;
-        margin-bottom: 100px;
+        margin-bottom: 50%;
     }
     /*sobre part*/
     .headsobre{
@@ -186,11 +198,14 @@ body{
         margin-top: 20px;
         margin: 20px;
         font-size: 24px;
+        margin-bottom: 50%;
     }
     /*projecto page*/
     .projectocontain{
         text-align: center;
         margin-bottom: 30px;
+        font-size: 2em;
+
     }
     .contentp{
         font-size: 24px;
@@ -201,10 +216,11 @@ body{
         align-items: flex-start;
         justify-content: flex-start;
         padding: 60px;
-        overflow-x: auto;          /* allows horizontal scrolling */
-        scroll-behavior: smooth;   /* smooth scroll */
-        -webkit-overflow-scrolling: touch; /* for mobile */
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
         white-space: nowrap;
+        margin-bottom: 50%;
     }
     .bootle {
        text-align: center;
@@ -224,10 +240,12 @@ body{
     }
     .bootle p {
         margin-top: 8px;
-        font-size: 1.5em;
-        color: #333333;
+        font-size: 1.2em;
+        color: #3d1f14;
+        font-weight: bold;
         font-family: Raleway, Arial, sans-serif;
     }
+    /*onde part*/
     .recomendations{
         display:flex;
         align-items: center;
@@ -236,7 +254,7 @@ body{
     .where{
         margin-top: 100px;
         font-weight: bold;
-        font-size: 3em;
+        font-size: 4em;
         text-align: center;
     }
     .what{
@@ -249,7 +267,8 @@ body{
     }
     .describe{
         text-align: center;
-        font-size: 2em;
+        font-size: 1.5em;
+        margin-bottom:50%;
     }
     /*relatorio part */
     .head3{
@@ -259,6 +278,7 @@ body{
     .access{
         margin-top: 20px;
         text-align: center;
-        font-size: 2em;
+        font-size: 1.5em;
+        margin-bottom: 50%;
     }
 }
