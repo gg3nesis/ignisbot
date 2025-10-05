@@ -9,10 +9,19 @@ h1{
     color:#4b1608;
     font-family: Noto Serif, sans-serif;
 }
-
 .goodnight{
     text-decoration: none;
     color:#b5562a;
+}
+#end{
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    bottom: 0;
+    background-color: #3d1f14;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 @media screen and (max-width: 600px){
     /*home page*/
@@ -87,6 +96,7 @@ h1{
     }
     .gallery{
         display:grid;
+        align-content: center;
         grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
         gap: 20px;
         padding: 20px;
@@ -135,14 +145,15 @@ h1{
         margin-bottom: 50%;
     }
     /*relatorio part */
-    .head3{
+    .head4{
         text-align: center;
         font-size: 2em;
     }
-    .access{
+    .acess1{
+        margin-top: 20px;
         text-align: center;
         font-size: 0.9em;
-        margin-bottom: 50%;
+        margin-bottom: 20%;
     }
     
 }
@@ -269,18 +280,18 @@ h1{
     }
     .describe{
         text-align: center;
-        font-size: 1.5em;
-        margin-bottom:50%;
+        font-size: 2em;
+        margin-bottom:20%;
     }
     /*relatorio part */
-    .head3{
+    .head4{
         text-align: center;
-        font-size: 3em;
+        font-size: 80px;
     }
-    .access{
+    .acess1{
         margin-top: 20px;
         text-align: center;
         font-size: 1.5em;
-        margin-bottom: 50%;
+        padding-bottom: 20%;
     }
 }
